@@ -56,4 +56,4 @@ Har implementerat det mesta funktionaliteten, började därefter styla bokningsf
 
 ## Dag 11 Fortsatt arbeta med UI och statiska data
 
-Fortsatt arbeta med UI och färdigställde formulärets design. Testade funktionaliteten och skapade statiska data som kan användas vid deployment. Rensade bort oanvänd kod.
+Fortsatt arbeta med UI och färdigställde formulärets design. Testade funktionaliteten och skapade statiska data som kan användas vid deployment. Rensade bort oanvänd kod. Ställde in Next.js för Github Pages och lagt till .github/workflows/pages.yml i rootmappen. Fick några gånger build failed och felsökte Github Actions. Till slut hittade felet i min kod fick ändra Typescrpit typen i en fil och lyckades genomföra deploymenten.
