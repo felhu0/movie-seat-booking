@@ -1,0 +1,82 @@
+{
+  "movies": [
+    {
+      "title": "Mowgli: Legend of the Jungle",
+      "year": "2018",
+      "price": 40,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
+      "id": "3"
+    },
+    {
+      "title": "Doctor Strange",
+      "year": "2016",
+      "price": 40,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+      "id": "4"
+    },
+    {
+      "title": "John Wick",
+      "year": "2014",
+      "price": 60,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+      "id": "GfICtKA"
+    },
+    {
+      "title": "wonder",
+      "year": "1996",
+      "price": 155,
+      "poster": "zsfhhjsdfusfui",
+      "id": "_BkpDX2"
+    },
+    {
+      "title": "The Lion King",
+      "year": "2019",
+      "price": 100,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+      "id": "NGS5PrL"
+    }
+  ],
+  "bookings": [
+    {
+      "movieId": "_BkpDX2",
+      "seats": [
+        "0-6",
+        "0-7"
+      ],
+      "customerName": "felicia",
+      "customerPhone": "123456",
+      "id": 1
+    },
+    {
+      "movieId": "3",
+      "seats": [
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7"
+      ],
+      "customerName": "felicia",
+      "customerPhone": "123456",
+      "id": 2
+    },
+    {
+      "movieId": "NGS5PrL",
+      "seats": [
+        "5-7",
+        "5-6"
+      ],
+      "customerName": "felicia",
+      "customerPhone": "123456",
+      "id": 3
+    },
+    {
+      "movieId": "4",
+      "seats": [
+        "2-3"
+      ],
+      "customerName": "felicia",
+      "customerPhone": "123456",
+      "id": 4
+    }
+  ]
+}
