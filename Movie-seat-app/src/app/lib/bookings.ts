@@ -1,4 +1,5 @@
 import { staticBookings } from "../data/staticBookings";
+import { Bookingdb } from "../types/Booking";
 
 export async function BookMovie(payload: { movieId: string; seats: string[]; customerName: string; customerPhone: string }) {
   const res = await fetch('http://localhost:3001/bookings', {
@@ -13,7 +14,7 @@ export async function BookMovie(payload: { movieId: string; seats: string[]; cus
   return res.json();
 }
 
-export async function fetchBooking( movieId: string) {
+export async function fetchBooking( movieId: string) : Promise<Bookingdb[]> {
   if (process.env.NODE_ENV === "production") {
     return staticBookings.filter(booking => booking.movieId === movieId);
   }

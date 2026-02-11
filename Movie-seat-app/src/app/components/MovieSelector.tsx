@@ -12,10 +12,10 @@ export default function MovieSelector({
     setSelectedMovieId
 }: MovieSelectorProps) {
     return (
-        <div className="bg-[#242333] text-white flex flex-col items-center justify-center px-4  py-6 mt-20 w-full">
+        <div className="bg-[#242333] text-white flex flex-col items-center justify-center px-2 py-6 mt-20 w-full">
             <div className="w-full max-w-3xl flex flex-col items-center gap-6">
-                <div className="flex items-center gap-3">
-                    <label className="text-lg font-semibold" htmlFor="movie">Pick a movie:</label>
+                <div className="flex items-center gap-4">
+                    <label className="text-lg font-semibold">Pick a movie:</label>
                     <select
                         className="text-black bg-white h-7 rounded-md px-2"
                         id="movie"

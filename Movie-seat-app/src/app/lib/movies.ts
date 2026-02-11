@@ -1,19 +1,24 @@
 import { staticMovies } from "../data/staticMovies";
+import { Movie } from "../types/Movie";
 
-export async function fetchMovies() {
-  if (process.env.NODE_ENV === "production") {
+export async function fetchMovies() : Promise<Movie[]> {
+  try {
+    if (process.env.NODE_ENV === "production") {
     return staticMovies;
   }
+  const res = await fetch("http://localhost:3001/movies", {
+        cache: "no-store",
+      });
 
-    const res = await fetch("http://localhost:3001/movies", {
-      cache: "no-store",
-    });
+      if (!res.ok) {
+        throw new Error("Fetch failed");
+      }
+      return res.json();
 
-    if (!res.ok) {
-      throw new Error("Fetch failed");
-    }
-
-    return await res.json();
+  } catch (error) {
+    console.error("fetchMovies error:", error);
+    return staticMovies;
+  }  
 }
 
 export async function deleteMovie(movieId : string) {

@@ -3,7 +3,7 @@
     {
       "title": "Mowgli: Legend of the Jungle",
       "year": "2018",
-      "price": 40,
+      "price": 140,
       "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
       "id": "3"
     },
@@ -22,13 +22,6 @@
       "id": "GfICtKA"
     },
     {
-      "title": "wonder",
-      "year": "1996",
-      "price": 155,
-      "poster": "zsfhhjsdfusfui",
-      "id": "_BkpDX2"
-    },
-    {
       "title": "The Lion King",
       "year": "2019",
       "price": 100,
@@ -37,16 +30,6 @@
     }
   ],
   "bookings": [
-    {
-      "movieId": "_BkpDX2",
-      "seats": [
-        "0-6",
-        "0-7"
-      ],
-      "customerName": "felicia",
-      "customerPhone": "123456",
-      "id": 1
-    },
     {
       "movieId": "3",
       "seats": [
