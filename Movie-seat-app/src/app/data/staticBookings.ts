@@ -8,7 +8,7 @@ export const staticBookings: Bookingdb[] = [
         "0-7"
       ],
       "customerName": "felicia",
-      "customerPhone": "123456",
+      "customerPhone": 123456,
       "id": 1
     },
       {
@@ -20,7 +20,7 @@ export const staticBookings: Bookingdb[] = [
         "4-7"
       ],
       "customerName": "felicia",
-      "customerPhone": "123456",
+      "customerPhone": 123456,
       "id": 2
     },
 ]
