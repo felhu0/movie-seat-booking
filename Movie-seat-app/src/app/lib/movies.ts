@@ -1,7 +1,10 @@
 import { staticMovies } from "../data/staticMovies";
 
 export async function fetchMovies() {
-  try {
+  if (process.env.NODE_ENV === "production") {
+    return staticMovies;
+  }
+
     const res = await fetch("http://localhost:3001/movies", {
       cache: "no-store",
     });
@@ -11,9 +14,6 @@ export async function fetchMovies() {
     }
 
     return await res.json();
-  } catch (error) {
-    return staticMovies;
-  }
 }
 
 export async function deleteMovie(movieId : string) {
